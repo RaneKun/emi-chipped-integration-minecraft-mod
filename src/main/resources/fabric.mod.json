@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "emi_chipped",
+  "version": "${version}",
+  "name": "EMI Chipped Integration",
+  "description": "Adds all Chipped workbench recipes to EMI. Supports all 7 workbenches and custom recipes.",
+  "authors": [
+    "Rane Kun"
+  ],
+  "contributors": [
+    "EMI - Original EMI mod by emilyploszaj",
+    "Chipped - Original Chipped mod by Terrarium (Organization)"
+  ],
+  "contact": {
+    "sources": "https://github.com/RaneKun/emi-chipped-integration"
+  },
+  "license": "MIT",
+  "icon": "assets/emi_chipped/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "emi": [
+      "com.rane.emichipped.EmiChippedPlugin"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.20.1",
+    "java": ">=21",
+    "emi": ">=1.1.0",
+    "chipped": ">=3.0.0"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  }
+}
